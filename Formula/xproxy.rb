@@ -7,7 +7,7 @@ class Xproxy < Formula
   
     def install
       bin.install "proxy_darwin_amd64" => "xproxy"
-      etc.install "config.json" => "xproxy/config.json"
+      pkgetc.install "config.json"
     #   share.install "xxx" => ""
     end
 
