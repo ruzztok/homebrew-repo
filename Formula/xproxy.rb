@@ -1,8 +1,8 @@
 class Xproxy < Formula
     desc "Socks5 Proxy"
     homepage "https://github.com/ruzztok/proxy-go"
-    url "https://github.com/ruzztok/proxy-go/releases/download/v0.0.7/proxy_darwin_amd64.tar.gz"
-    sha256 "4a1dda114191bc5c457633ec5bd49895eb9592318ae78b0a255d899aa75d6aaf"
+    url "https://github.com/ruzztok/proxy-go/releases/download/v0.0.8/proxy_darwin_amd64.tar.gz"
+    sha256 "821a8b35752a395d404938654d1a1b11d62e995accc11e267fc15e88cd137747"
   
     def install
       bin.install "proxy_darwin_amd64" => "xproxy"
