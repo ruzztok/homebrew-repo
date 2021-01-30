@@ -24,6 +24,10 @@ class Xproxy < Formula
               <string>-c</string>
               <string>#{etc}/xproxy/config.json</string>
             </array>
+            <key>KeepAlive</key>
+            <true/>
+            <key>RunAtLoad</key>
+            <true/>
           </dict>
         </plist>
       EOS
